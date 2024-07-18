@@ -8,6 +8,7 @@ This project is a simple RESTful API for managing emails using PHP and PostgreSQ
 - List Emails
 - Show Email by ID
 - Delete Email
+- Send Email on Creation
 
 ## Installation
 
