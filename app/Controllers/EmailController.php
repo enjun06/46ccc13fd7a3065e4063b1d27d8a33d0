@@ -2,9 +2,10 @@
 
 namespace App\Controllers;
 
-use App\Models\Email;
-use App\Validator;
 use Exception;
+use App\Validator;
+use App\Models\Email;
+use App\Helpers\EmailHelper;
 
 class EmailController
 {
@@ -72,6 +73,7 @@ class EmailController
             }
 
             $email = Email::create($input);
+            EmailHelper::sendMail($email->recipient, $email->subject, $email->body);
 
             return $this->jsonResponse([
                 'status' => 'success',
