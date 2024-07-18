@@ -13,12 +13,12 @@ This project is a simple RESTful API for managing emails using PHP and PostgreSQ
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/send-mail-api.git
+    git clone https://github.com/enjun06/46ccc13fd7a3065e4063b1d27d8a33d0.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd send-mail-api
+    cd 46ccc13fd7a3065e4063b1d27d8a33d0
     ```
 
 3. Install dependencies:
